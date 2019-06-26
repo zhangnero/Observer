@@ -1,5 +1,7 @@
 package com.zhang.nero.observer;
 
+import com.zhang.nero.observer.impl.Observer;
+import com.zhang.nero.observer.impl.Subject;
 import org.junit.Test;
 
 public class ObserverTest {

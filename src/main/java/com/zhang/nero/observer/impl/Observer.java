@@ -1,4 +1,7 @@
-package com.zhang.nero.observer;
+package com.zhang.nero.observer.impl;
+
+import com.zhang.nero.observer.IObserver;
+import com.zhang.nero.observer.ISubject;
 
 public class Observer implements IObserver {
 
@@ -9,6 +12,7 @@ public class Observer implements IObserver {
 		this.name = name;
 	}
 
+	@Override
 	public void call() {
 		System.out.println(name + " has been notified.");
 	}
